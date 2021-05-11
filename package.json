@@ -1,0 +1,24 @@
+{
+  "name": "node-helloworld",
+  "version": "1.0.0",
+  "description": "test-package",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./app.js",
+    "setup": "npm install",
+    "start": "node ./app.js",
+    "local": "node ./app.js"
+  },
+  "dependencies": {
+    "express": "~4.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.ibm.com/petergao/node-helloworld"
+  },
+  "keywords": [
+    "test-lb"
+  ],
+  "author": "Peter",
+  "license": "ISC"
+}
