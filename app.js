@@ -3,7 +3,7 @@ const app = express()
 const port = 8000
 
 app.get('/', (req, res) => {
-  res.send('tekton argocd demo No.4')
+  res.send('tekton argocd demo for Panorama')
 })
 
 app.listen(port, () => {
